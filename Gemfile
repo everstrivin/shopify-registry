@@ -39,10 +39,9 @@ gem 'jquery-rails'
 # gem 'debugger'
 gem 'shopify_app'
 
-group :development, :test do
-  gem "less-rails-bootstrap"
-  gem "therubyracer", :platforms => :ruby
-end
+gem "twitter-bootstrap-rails"
+gem "less-rails-bootstrap"
+gem "therubyracer", :platforms => :ruby
 
 group :development, :test do
 end
