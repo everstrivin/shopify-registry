@@ -24,6 +24,8 @@ GEM
       tzinfo (~> 0.3.29)
     activerecord-mysql2-adapter (0.0.3)
       mysql2
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (3.2.13)
       activemodel (= 3.2.13)
       activesupport (= 3.2.13)
@@ -84,6 +86,7 @@ GEM
       omniauth (~> 1.0)
     omniauth-shopify-oauth2 (1.1.0)
       omniauth-oauth2 (~> 1.1.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -152,10 +155,12 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql2-adapter
+  activerecord-postgresql-adapter
   coffee-rails (~> 3.2.1)
   jquery-rails
   less-rails-bootstrap
   mysql2
+  pg
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   shopify_app
